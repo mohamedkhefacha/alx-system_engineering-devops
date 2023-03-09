@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | sed '$!s/$/, /' | tr -d '\n'
+ls -la -m -p
